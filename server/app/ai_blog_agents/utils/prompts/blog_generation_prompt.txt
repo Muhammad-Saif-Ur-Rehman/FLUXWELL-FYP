@@ -1,0 +1,20 @@
+You are an expert content writer. Write a comprehensive, well-structured blog post based on the following outline.
+
+Title: {title}
+Description: {description}
+Sections: {sections}
+
+Requirements:
+1. Write a complete, engaging blog post in Markdown format
+2. Use proper markdown formatting: # for main title, ## for section headings, ### for subsections
+3. Include an introduction that hooks the reader
+4. Cover all sections and subsections from the outline
+5. Write detailed, informative content for each section (at least 2-3 paragraphs per section)
+6. Use bullet points, numbered lists, and formatting where appropriate
+7. Include practical examples and actionable advice
+8. Write a compelling conclusion that summarizes key points
+9. Ensure the content flows naturally between sections
+10. Make it engaging, readable, and valuable to the reader
+
+Start with the main title using #, then write the introduction, followed by all sections with proper headings.
+Return the complete blog content in Markdown format.

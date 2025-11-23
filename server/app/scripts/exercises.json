@@ -1,0 +1,186 @@
+[
+    {
+        "id": "bicep_curl_left",
+        "name": "Bicep Curl (Left)",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_ELBOW", "c": "LEFT_WRIST", "min": 30, "max": 160, "error_min": "Curl is too high (minimal tension).", "error_max": "Arm is not fully extended at the bottom." },
+            { "type": "horizontal_alignment", "p1": "LEFT_ELBOW", "p2": "LEFT_SHOULDER", "error": "Elbow is shifting forward or back (not tucked)." }
+        ]
+    },
+    {
+        "id": "overhead_press",
+        "name": "Overhead Press",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_ELBOW", "b": "LEFT_SHOULDER", "c": "LEFT_HIP", "min": 150, "max": 180, "error_min": "Shoulders are rounding forward (too far in front).", "error_max": "Arms locked out too aggressively." },
+            { "type": "vertical_alignment", "p1": "LEFT_WRIST", "p2": "LEFT_SHOULDER", "error": "Wrist is too far out of line with the shoulder." }
+        ]
+    },
+    {
+        "id": "squat",
+        "name": "Squat",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 75, "max": 105, "error_min": "Hips dropped too deep.", "error_max": "Squat depth is too shallow." },
+            { "type": "vertical_alignment", "p1": "LEFT_KNEE", "p2": "LEFT_ANKLE", "error": "Knees are traveling too far past the toes." }
+        ]
+    },
+    {
+        "id": "plank",
+        "name": "Plank Hold",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 170, "max": 180, "error_min": "Hips are sagging down too much.", "error_max": "Hips are raised too high." },
+            { "type": "vertical_alignment", "p1": "LEFT_ELBOW", "p2": "LEFT_SHOULDER", "error": "Elbows are positioned too far forward." }
+        ]
+    },
+    {
+        "id": "deadlift",
+        "name": "Deadlift (Bottom)",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 90, "max": 135, "error_min": "Hips are too low (squatting).", "error_max": "Hips are too high (straight legs)." },
+            { "type": "vertical_alignment", "p1": "LEFT_SHOULDER", "p2": "LEFT_ANKLE", "error": "Body mass is too far forward or back." }
+        ]
+    },
+    {
+        "id": "lunge_static",
+        "name": "Static Lunge",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 85, "max": 95, "error_min": "Front knee angle too small.", "error_max": "Front knee angle too wide." },
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "RIGHT_KNEE", "c": "RIGHT_ANKLE", "min": 85, "max": 95, "error_min": "Back knee angle too small.", "error_max": "Back knee angle too wide." }
+        ]
+    },
+    {
+        "id": "pushup_bottom",
+        "name": "Pushup (Bottom)",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_ELBOW", "c": "LEFT_WRIST", "min": 75, "max": 95, "error_min": "Elbows flared out too wide.", "error_max": "Elbows tucked in too tight." },
+            { "type": "horizontal_alignment", "p1": "LEFT_HIP", "p2": "LEFT_SHOULDER", "error": "Hips are sagging or pike-ing during the pushup." }
+        ]
+    },
+    {
+        "id": "row_bent_over",
+        "name": "Bent-Over Row",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 120, "max": 150, "error_min": "Standing up too straight.", "error_max": "Bending over too far/rounding back." },
+            { "type": "horizontal_alignment", "p1": "LEFT_HIP", "p2": "RIGHT_HIP", "error": "Hips are twisted or uneven." }
+        ]
+    },
+    {
+        "id": "side_plank",
+        "name": "Side Plank",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "vertical_alignment", "p1": "LEFT_ANKLE", "p2": "LEFT_SHOULDER", "error": "Body is swaying forward or backward." },
+            { "type": "horizontal_alignment", "p1": "LEFT_HIP", "p2": "LEFT_SHOULDER", "error": "Hips are dropping toward the floor." }
+        ]
+    },
+    {
+        "id": "triceps_extension",
+        "name": "Triceps Extension",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_ELBOW", "c": "LEFT_WRIST", "min": 10, "max": 40, "error_min": "Not enough extension at the bottom.", "error_max": "Elbows are moving too much." }
+        ]
+    },
+    {
+        "id": "reverse_lunge",
+        "name": "Reverse Lunge",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 85, "max": 95, "error_min": "Front shin is leaning too far back.", "error_max": "Front shin is leaning too far forward." },
+            { "type": "vertical_alignment", "p1": "LEFT_HIP", "p2": "RIGHT_ANKLE", "error": "Not stepping back far enough." }
+        ]
+    },
+    {
+        "id": "t_pose_balance",
+        "name": "T-Pose Balance",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "horizontal_alignment", "p1": "LEFT_SHOULDER", "p2": "RIGHT_SHOULDER", "error": "Shoulders are uneven." },
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 170, "max": 180, "error_min": "Back leg dropping too low.", "error_max": "Knee is bent (should be straight)." }
+        ]
+    },
+    {
+        "id": "mountain_climbers_start",
+        "name": "Mountain Climber (Start)",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 80, "max": 100, "error_min": "Hips too low, back arched.", "error_max": "Hips too high, not flat." }
+        ]
+    },
+    {
+        "id": "calf_raise",
+        "name": "Calf Raise (Top)",
+        "rules": [
+            { "type": "vertical_alignment", "p1": "LEFT_SHOULDER", "p2": "LEFT_HIP", "error": "Leaning forward or backward." },
+            { "type": "distance_check", "p1": "LEFT_ANKLE", "p2": "RIGHT_ANKLE", "min": 0.05, "max": 0.3, "error_min": "Feet are too close together.", "error_max": "Feet are too wide apart." }
+        ]
+    },
+    {
+        "id": "yoga_warrior2",
+        "name": "Warrior II Pose",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 85, "max": 95, "error_min": "Front knee not deep enough.", "error_max": "Knee is too far past the ankle." },
+            { "type": "horizontal_alignment", "p1": "LEFT_SHOULDER", "p2": "RIGHT_SHOULDER", "error": "Shoulders are not level." }
+        ]
+    },
+    {
+        "id": "yoga_tree",
+        "name": "Tree Pose",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "vertical_alignment", "p1": "LEFT_SHOULDER", "p2": "LEFT_HIP", "error": "Shoulders and hips are not stacked vertically." },
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "RIGHT_KNEE", "c": "RIGHT_ANKLE", "min": 150, "max": 180, "error_min": "Balancing leg is bent.", "error_max": "Balancing leg is too rigid." }
+        ]
+    },
+    {
+        "id": "side_lateral_raise",
+        "name": "Side Lateral Raise",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_ELBOW", "b": "LEFT_SHOULDER", "c": "LEFT_HIP", "min": 85, "max": 95, "error_min": "Arms not reaching shoulder height.", "error_max": "Arms going too high (above shoulder)." }
+        ]
+    },
+    {
+        "id": "good_morning",
+        "name": "Good Morning",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 90, "max": 105, "error_min": "Leaning too far forward (past parallel).", "error_max": "Not leaning far enough forward." },
+            { "type": "angle_check", "a": "LEFT_HIP", "b": "LEFT_KNEE", "c": "LEFT_ANKLE", "min": 170, "max": 180, "error_min": "Knees are bending too much." }
+        ]
+    },
+    {
+        "id": "hip_bridge_top",
+        "name": "Hip Bridge (Top)",
+        "rules": [
+            { "type": "horizontal_alignment", "p1": "LEFT_KNEE", "p2": "LEFT_SHOULDER", "error": "Hips are not fully extended." },
+            { "type": "angle_check", "a": "LEFT_KNEE", "b": "LEFT_HIP", "c": "LEFT_SHOULDER", "min": 170, "max": 180, "error_min": "Back is arched too much (overextension)." }
+        ]
+    },
+    {
+        "id": "high_knees",
+        "name": "High Knees (Peak)",
+        "rules": [
+            { "type": "angle_check", "a": "LEFT_ANKLE", "b": "LEFT_KNEE", "c": "LEFT_HIP", "min": 75, "max": 105, "error_min": "Knee is not lifting high enough." }
+        ]
+    },
+    {
+        "id": "single_leg_balance",
+        "name": "Single Leg Balance",
+        "type": "time_based",
+        "target_time": 60,
+        "rules": [
+            { "type": "vertical_alignment", "p1": "LEFT_SHOULDER", "p2": "LEFT_HIP", "error": "Torso is leaning sideways." },
+            { "type": "angle_check", "a": "LEFT_SHOULDER", "b": "LEFT_HIP", "c": "LEFT_KNEE", "min": 170, "max": 180, "error_min": "Balancing leg is bent at the hip." }
+        ]
+    },
+    {
+        "id": "standing_twist",
+        "name": "Standing Torso Twist",
+        "rules": [
+            { "type": "vertical_alignment", "p1": "LEFT_HIP", "p2": "LEFT_KNEE", "error": "Hips are swaying side-to-side." },
+            { "type": "distance_check", "p1": "LEFT_ELBOW", "p2": "RIGHT_ELBOW", "min": 0.5, "error_min": "Arms are too close together (not wide enough)." }
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+
+[2025-11-20 23:10:22] === Initializing video source ===
+[2025-11-20 23:10:22] No video file specified, attempting webcam capture (index 0)
+
+[2025-11-20 23:12:25] === Initializing video source ===
+[2025-11-20 23:12:25] No video file specified, attempting webcam capture (index 0)
+
+[2025-11-20 23:16:41] === Initializing video source ===
+[2025-11-20 23:16:41] No video file specified, attempting webcam capture (index 0)
+[2025-11-20 23:16:41] ✓ Webcam opened successfully with DirectShow
+[2025-11-20 23:16:42] Camera resolution: 640.0x480.0
+
+[2025-11-20 23:25:17] === Initializing video source ===
+[2025-11-20 23:25:17] No video file specified, attempting webcam capture (index 0)
+[2025-11-20 23:25:19] ✓ Webcam opened successfully with DirectShow
+[2025-11-20 23:25:20] Camera resolution: 640.0x480.0
+
+[2025-11-21 00:26:17] === Initializing video source ===
+[2025-11-21 00:26:17] No video file specified, attempting webcam capture (index 0)
+[2025-11-21 00:26:18] ✓ Webcam opened successfully with DirectShow
+[2025-11-21 00:26:19] Camera resolution: 640.0x480.0
+
+[2025-11-21 00:28:24] === Initializing video source ===
+[2025-11-21 00:28:24] No video file specified, attempting webcam capture (index 0)
+[2025-11-21 00:28:25] ✓ Webcam opened successfully with DirectShow
+[2025-11-21 00:28:27] Camera resolution: 640.0x480.0

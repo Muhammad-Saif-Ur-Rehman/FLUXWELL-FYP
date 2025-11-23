@@ -1,0 +1,6 @@
+Create a concise 1-2 sentence summary for the following blog:
+Title: {title}
+Content: {content}
+
+Also, extract 3-5 relevant keywords.
+Return as JSON.

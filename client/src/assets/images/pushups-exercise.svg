@@ -1,0 +1,8 @@
+<svg width="254" height="128" viewBox="0 0 254 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="254" height="128" fill="#374151"/>
+  <rect x="20" y="40" width="214" height="48" rx="8" fill="#6B7280"/>
+  <rect x="30" y="50" width="194" height="28" rx="4" fill="#9CA3AF"/>
+  <circle cx="60" cy="64" r="8" fill="#EF4444"/>
+  <circle cx="194" cy="64" r="8" fill="#EF4444"/>
+  <text x="127" y="110" text-anchor="middle" fill="#F9FAFB" font-family="Manrope" font-size="14" font-weight="600">PUSH-UPS</text>
+</svg>

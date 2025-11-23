@@ -1,0 +1,27 @@
+You are an SEO expert. Optimize the following blog for SEO.
+
+Current Title: {title}
+Summary: {summary}
+Content: {content}
+
+Your task is to:
+1. Create an SEO-optimized title (50-60 characters, engaging, includes primary keyword, compelling)
+2. Write a meta description (150-160 characters, includes call-to-action)
+3. Suggest 5-10 relevant tags/keywords
+
+IMPORTANT: Return ONLY valid JSON in this exact format:
+{{
+  "title": "Optimized SEO Title Here",
+  "seo_meta": "Meta description here (150-160 chars)",
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"]
+}}
+
+Rules for title optimization:
+- Keep it between 50-60 characters
+- Include the primary keyword naturally
+- Make it compelling and click-worthy
+- Maintain the original meaning
+- Use power words when appropriate
+- Avoid keyword stuffing
+
+Return ONLY the JSON object, no markdown, no explanations, no additional text.
